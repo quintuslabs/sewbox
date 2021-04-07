@@ -1,0 +1,58 @@
+#header-text {
+    animation: right_to_left 3s ease;
+}
+
+#sub-header-text {
+    animation: left_to_right 3s ease;
+}
+
+.page-title {
+    animation: left_to_right 1s ease;
+}
+
+
+
+
+@keyframes right_to_left {
+    from {
+        margin-left: 100%;
+    }
+    to {
+        margin-left: 0;
+    }
+}
+
+@keyframes left_to_right {
+    from {
+        margin-left: -100%;
+    }
+    to {
+        margin-left: 0;
+    }
+}
+
+::-webkit-file-upload-button {
+  background: #f5f5f5;
+  color: red;
+  padding: 5px;
+}
+
+.category-btn{
+    margin-left: 20px;
+}
+
+p.show-error {
+    background: #f35864;
+    padding: 10px;
+    color: white;
+}
+
+.ui-datepicker .ui-datepicker-next {
+    right: 2px;
+    background-image: url("http://cdn.onlinewebfonts.com/svg/img_252738.png");
+}
+
+.ui-datepicker .ui-datepicker-prev {
+    left: 2px;
+    background-color: green;
+}
